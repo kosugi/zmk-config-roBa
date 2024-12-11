@@ -110,7 +110,7 @@
 &trans        &trans          &trans            &trans        &trans            &trans            &trans  &trans                                                         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(LS(TAB)) LA(TAB)>;
+            sensor-bindings = <&inc_dec_kp LS(LC(TAB)) LC(TAB)>;
         };
 
         SCROLL {
