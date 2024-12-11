@@ -20,13 +20,13 @@
         colons {
             bindings = <&kp SEMI>;
             key-positions = <20 21>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         quotes {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <33 32>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         lang1 {
@@ -46,10 +46,16 @@
             layers = <0>;
         };
 
-        foward {
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <6 7>;
+            layers = <0>;
+        };
+
+        mb5 {
             bindings = <&mkp MB5>;
-            key-positions = <19 20>;
-            layers = <3>;
+            key-positions = <7 8>;
+            layers = <0>;
         };
     };
 
