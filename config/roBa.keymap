@@ -20,13 +20,13 @@
         colons {
             bindings = <&kp SEMI>;
             key-positions = <20 21>;
-            layers = <0 1 2>;
+            layers = <0>;
         };
 
         quotes {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <33 32>;
-            layers = <0 1 2>;
+            layers = <0>;
         };
 
         lang1 {
@@ -56,6 +56,18 @@
             bindings = <&mkp MB5>;
             key-positions = <7 8>;
             layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <20 21>;
+            layers = <1 2>;
+        };
+
+        doublequote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <33 32>;
+            layers = <1 2>;
         };
     };
 
@@ -115,10 +127,10 @@
 
         SCROLL {
             bindings = <
-&kp F1  &kp F2        &kp F3              &kp F4         &none                         &kp HOME       &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp END
-&kp F5  &kp F6        &kp F7              &kp F8         &none   &kp C_MUTE    &none   &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE
-&kp F9  &mt LALT F10  &mt LEFT_SHIFT F11  &mt LCTRL F12  &none   &trans        &none   &none          &kp RCTRL       &kp RSHIFT      &kp RIGHT_ALT    &kp INS
-&trans  &trans        &trans              &trans         &trans  &trans        &trans  &trans                                                          &trans
+&kp F1  &kp F2        &kp F3              &kp F4         &kp LS(LC(TAB))                        &kp HOME       &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp END
+&kp F5  &kp F6        &kp F7              &kp F8         &kp LC(TAB)      &kp C_MUTE    &none   &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE
+&kp F9  &mt LALT F10  &mt LEFT_SHIFT F11  &mt LCTRL F12  &kp LA(ESCAPE)   &trans        &none   &none          &kp RCTRL       &kp RSHIFT      &kp RIGHT_ALT    &kp INS
+&trans  &trans        &trans              &trans         &trans           &trans        &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
