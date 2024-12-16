@@ -1,6 +1,7 @@
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
 #define SCROLL 5
@@ -68,6 +69,18 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <33 32>;
             layers = <1 2>;
+        };
+
+        mb4b {
+            bindings = <&mkp MB4>;
+            key-positions = <18 19>;
+            layers = <3>;
+        };
+
+        mb5b {
+            bindings = <&mkp MB5>;
+            key-positions = <19 20>;
+            layers = <3>;
         };
     };
 
