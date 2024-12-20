@@ -1,5 +1,4 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -44,18 +43,6 @@
         mclk {
             bindings = <&mkp MB3>;
             key-positions = <18 19>;
-            layers = <0>;
-        };
-
-        mb4 {
-            bindings = <&mkp MB4>;
-            key-positions = <6 7>;
-            layers = <0>;
-        };
-
-        mb5 {
-            bindings = <&mkp MB5>;
-            key-positions = <7 8>;
             layers = <0>;
         };
 
