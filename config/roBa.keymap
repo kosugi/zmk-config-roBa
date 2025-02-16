@@ -103,7 +103,7 @@
 &kp ESCAPE  &kp LCTRL   &kp LEFT_ALT  &lt 1 TAB    &kp LEFT_SHIFT  &lt 3 SPACE    &lt 2 ENTER  &kp LCTRL                                                      &kp LWIN
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
         SIGNS {
