@@ -133,8 +133,8 @@
         SIGNS {
             bindings = <
 &kp EXCL      &kp AT          &kp HASH          &kp DOLLAR  &kp PERCENT                         &kp CARET      &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE    &kp SINGLE_QUOTE  &trans    &trans  &kp BACKSPACE  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS
-&kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPS    &kp SEMI          &trans    &trans  &kp EQUAL      &kp ASTRK  &kp COMMA             &kp PERIOD             &kp SLASH
+&kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE    &kp SEMI          &trans    &trans  &kp BACKSPACE  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS
+&kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPS    &kp SINGLE_QUOTE  &trans    &trans  &kp EQUAL      &kp ASTRK  &kp COMMA             &kp PERIOD             &kp SLASH
 &trans        &trans          &trans            &trans      &trans            &trans    &trans  &trans                                                                 &trans
             >;
         };
@@ -142,8 +142,8 @@
         NUM_SIGNS {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4  &kp N5                                      &kp NUMBER_6   &kp N7     &kp N8            &kp N9             &kp N0
-&kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE      &kp SINGLE_QUOTE  &kp LA(ESCAPE)    &trans  &kp BACKSPACE  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
-&kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPS      &kp SEMI          &trans            &trans  &kp EQUAL      &kp ASTRK  &kp COMMA         &kp PERIOD         &kp SLASH
+&kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE      &kp SEMI          &kp LA(ESCAPE)    &trans  &kp BACKSPACE  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
+&kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPS      &kp SINGLE_QUOTE  &trans            &trans  &kp EQUAL      &kp ASTRK  &kp COMMA         &kp PERIOD         &kp SLASH
 &trans        &trans          &trans            &trans        &trans            &trans            &trans  &trans                                                         &trans
             >;
 
