@@ -32,7 +32,7 @@
         };
 
         lang1 {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&td_ptr>;
             key-positions = <38 41>;
         };
 
@@ -111,6 +111,15 @@
             label = "Tap dance behavior (CTRL, SHIFT, ALT)";
             #binding-cells = <0>;
             bindings = <&kp RCTRL>, <&kp RIGHT_SHIFT>, <&kp RIGHT_ALT>;
+
+            tapping-term-ms = <300>;
+        };
+
+        td_ptr: tap_dance_ptr {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap dance behavior (Lang, Ptr)";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_1>, <&kp LS(LC(LA(INSERT)))>;
 
             tapping-term-ms = <300>;
         };
