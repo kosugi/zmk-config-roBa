@@ -23,12 +23,14 @@
             bindings = <&kp SEMI>;
             key-positions = <20 21>;
             layers = <0>;
+            timeout-ms = <150>;
         };
 
         quotes {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <33 32>;
             layers = <0>;
+            timeout-ms = <150>;
         };
 
         lang1 {
@@ -52,12 +54,14 @@
             bindings = <&kp COLON>;
             key-positions = <20 21>;
             layers = <1 2>;
+            timeout-ms = <150>;
         };
 
         doublequote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <33 32>;
             layers = <1 2>;
+            timeout-ms = <150>;
         };
 
         mb4b {
