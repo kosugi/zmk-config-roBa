@@ -135,6 +135,15 @@
 
             tapping-term-ms = <300>;
         };
+
+        tap_tap: tap_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP_TAP";
+            bindings = <&tap_once>, <&tap_once>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <500>;
+        };
     };
 
     keymap {
