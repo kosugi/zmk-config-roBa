@@ -34,7 +34,7 @@
         };
 
         lang1 {
-            bindings = <&td_ptr>;
+            bindings = <&tap_tap LS(LA(LC(INS))) LANG1>;
             key-positions = <38 41>;
         };
 
@@ -89,12 +89,16 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
         tap_once: tap_once {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
-                <&macro_press   &macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_release &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+                <&macro_press>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
+                <&macro_release>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+
             label = "TAP_ONCE";
         };
     };
