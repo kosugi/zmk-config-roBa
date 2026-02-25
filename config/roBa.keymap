@@ -156,7 +156,7 @@
         default_layer {
             bindings = <
 &kp Q         &kp W           &kp E             &kp R        &kp T                                  &kp Y    &kp U        &kp I              &kp O            &kp P
-&kp A         &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F  &kp G    &mkp MB3       &lt 5 MINUS    &kp H    &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &kp MINUS
+&kp A         &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F  &kp G    &kp MINUS      &lt 5 MINUS    &kp H    &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &kp MINUS
 &kp Z         &kp X           &kp C             &kp V        &kp B    &mkp LCLK      &kp RIGHT_ALT  &kp N    &kp M        &kp COMMA          &kp PERIOD       &kp SLASH
 &lt 4 ESCAPE  &kp LCTRL       &kp LEFT_ALT      &lt 1 TAB    &td_sca  &lt 3 SPACE    &lt 2 ENTER    &td_csa                                                   &kp LWIN
             >;
@@ -175,10 +175,10 @@
 
         NUM_SIGNS {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4  &kp N5                                      &kp NUMBER_6   &kp N7     &kp N8            &kp N9             &kp N0
-&kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE      &kp SEMI          &kp LA(ESCAPE)    &trans  &kp BACKSPACE  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
-&kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPS      &kp SINGLE_QUOTE  &trans            &trans  &kp EQUAL      &kp ASTRK  &kp COMMA         &kp PERIOD         &kp SLASH
-&trans        &trans          &trans            &trans        &trans            &trans            &trans  &trans                                                         &trans
+&kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4  &kp N5                                              &kp NUMBER_6   &kp N7     &kp N8            &kp N9             &kp N0
+&kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE      &kp SEMI          &kp LA(ESCAPE)    &msc SCRL_UP    &kp BACKSPACE  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
+&kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPS      &kp SINGLE_QUOTE  &trans            &msc SCRL_DOWN  &kp EQUAL      &kp ASTRK  &kp COMMA         &kp PERIOD         &kp SLASH
+&trans        &trans          &trans            &trans        &trans            &trans            &trans          &trans                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LS(LC(TAB)) LC(TAB)>;
